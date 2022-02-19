@@ -1,0 +1,54 @@
+﻿ @{
+    ViewData["Title"] = "Home Page";
+} 
+
+<!DOCTYPE html>
+<html lang="RU">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/css/Index.css">
+    <title>MyResume</title>
+</head>
+
+
+<body>
+    <div class="wrapper">
+        <form class="form js-form">
+            <div class="form-container">
+                <lable class="form-item">
+                    <span>Header</span>
+                    <input class="form-input js-form-header" placeholder="Header">
+                </lable>
+            </div>
+            <div>
+                <lable class="form-item">
+                    <span>Message</span>
+                    <input class="form-input js-form-message" placeholder="Message">
+                </lable>
+            </div>
+            <div class="form-container js-form-email-recipient-wrapper hidden">
+                <lable class="form-item">
+                    <span>Email</span>
+                    <input class="form-input js-form-email-recipient" placeholder="Email">
+                </lable>
+            </div>
+            <div class="form-container form-container--add-btn">
+                <lable class="form-item js-btn-add-email">
+                    <button class="form-recipient">add email</button>
+                </lable>
+            </div>
+            <div class="form-container form-container--send">
+                <button class="form-send js-form-btn">send</button>
+            </div>
+        </form>
+    </div>
+    <script src="~/js/index.js"></script>
+</body>
+
+
+<footer class="footer">
+    <div>
+        <p>©2022</p>
+    </div>
+</footer>

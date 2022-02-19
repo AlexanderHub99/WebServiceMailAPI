@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceMailAPI", "WebServiceMailAPI\WebServiceMailAPI.csproj", "{4426C810-52B2-4BE0-8D0E-9D2B64DFC687}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4426C810-52B2-4BE0-8D0E-9D2B64DFC687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4426C810-52B2-4BE0-8D0E-9D2B64DFC687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4426C810-52B2-4BE0-8D0E-9D2B64DFC687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4426C810-52B2-4BE0-8D0E-9D2B64DFC687}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3183C4BC-D52C-4122-90C5-92AA0C365636}
+	EndGlobalSection
+EndGlobal
